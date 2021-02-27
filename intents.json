@@ -1,0 +1,23 @@
+{"intents": [
+    {
+        "tag":"greetings",
+        "patterns":["hello","hi","greetings","hey","yo","sup","what's up","how are you?","how is it going?"],
+        "responses": ["Hello!","Greetings","Hi!"]
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["bye","tata","later","see you later","i am leaving","exit","see ya","ciao"],
+        "responses":["Have a good day!","Leaving Already? Take Care!","Hope you had fun"]
+    },
+    {
+        "tag":"name",
+        "patterns":["what is your name","name?","who are you","what are you","are you human","what should i call you","call you","tell me your name"],
+        "responses":["i am ICThink! a chat bot creater to take Viva created by Josh Trivedi","Nice to meet you, I am ICThink, an AI bot by Josh"]
+    },
+    {
+        "tag":"level",
+        "patterns":["level","what is my current level","what stage","difficulty"],
+        "responses":["your learning curve will determine your difficulty, it will change from time to time","please be patient, I will generate a report after the meeting"]
+    }
+]
+}
